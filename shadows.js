@@ -18,9 +18,9 @@ function timeDisplay() {
   //var time = new Date().getSeconds();
 
   if (time === 0) {
-    document.getElementById("image").src = "img/16.jpeg";
+    document.getElementById("image").src = "img/15.jpeg";
     document.body.style.background =
-    "black url('img/16.jpeg') no-repeat fixed center center";
+    "black url('img/15.jpeg') no-repeat fixed center center";
     document.body.style.backgroundSize = "cover";
   }
   else if (time === 1) {
