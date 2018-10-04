@@ -138,9 +138,9 @@ function timeDisplay() {
     document.body.style.backgroundSize = "cover";
   }
   else if (time === 20) {
-    document.getElementById("image").src = "img/13.jpeg";
+    document.getElementById("image").src = "img/14.jpeg";
     document.body.style.background =
-    "black url('img/13.jpeg') no-repeat fixed center center";
+    "black url('img/14.jpeg') no-repeat fixed center center";
     document.body.style.backgroundSize = "cover";
   }
   else if (time === 21) {
