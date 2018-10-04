@@ -16,6 +16,10 @@ Unzip the folder and run the `index.html` in your browser.
 
 **Customise:**
 
+Show images as `background`, `foreground`, or both.
+
+See comments in `shadows.js` for instructions.
+
 Change the image set to your own if required.
 
 Change the image `src` in the `shadows.js` file.
@@ -30,9 +34,17 @@ Change the `index.html` and `style.css` to suit your needs.
 
 That's about it.
 
+**Notes:**
+
+If you are running this on an online server the image sizes would need to be reduced, or better still create your own `svg` images.
+
+TODO list:
+* Smooth transitions
+* Overlay filter ???
+
 **Disclaimer:**
 
-Images, screenshots, and videos are conceptual only and do not form part of this license.
+Unless stated otherwise, images, screenshots, and videos are conceptual only and do not form part of this license.
 
 ---
 

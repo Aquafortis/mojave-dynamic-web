@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Mojave Dynamic Test</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="style.css">
-<script type="text/javascript" src="shadows.js"></script>
+  <title>Timed Images Test</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Change script src to suit -->
+  <script type="text/javascript" src="shadows.js"></script>
+  <script type="text/javascript" src="countdown.js"></script>
 </head>
+
 <body>
 
-<script>
-function myTimer() {
-  var d = new Date();
-  document.getElementById("current").innerHTML = d.toLocaleTimeString();
-}
-var myVar = setInterval(myTimer, 1000);
-</script>
+  <div id="filter"> <!-- experimental -->
 
-<div class="wrapper">
-  <p id="current"></p>
-  <p id="demo"></p>
-  <img id="image">
-  <h1 id="msg">Coming soon ...</h1>
-</div>
+    <div class="wrapper animate">
+      <h1>Timed Images</h1>
+      <img id="image"> <!-- called from js -->
+      <h2>Coming soon...</h2>
+      <h1 id="countdown"></h1> <!-- called from js -->
+      <p>Code on <a href="https://github.com/Aquafortis/mojave-dynamic-web">GitHub</a></p>
+    </div>
+
+  </div> <!-- end filter -->
 
 </body>
+
 </html>
