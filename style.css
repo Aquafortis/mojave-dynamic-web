@@ -14,19 +14,20 @@ html {
 }
 
 body {
-  width: auto;
   height: 100%;
+  width: auto;
+  font-size: 100%;
 }
 
 h1 {
-  color: #f0f0f0;
+  color: WhiteSmoke;
   font-size: 2em;
   font-weight: 400;
   padding-bottom: 20px;
 }
 
 h2 {
-  color: #f0f0f0;
+  color: WhiteSmoke;
   font-size: 2em;
   font-weight: 400;
   padding-top: 20px;
@@ -34,24 +35,25 @@ h2 {
 }
 
 p {
-  color: #f0f0f0;
+  color: WhiteSmoke;
   min-height: 20px;
   padding-bottom: 10px;
 }
 
 img {
   display: block;
-  width: 100%;
   height: auto;
+  width: 100%;
 }
 
 a:link, a:visited, a:active {
-  color: #f0f0f0;
+  color: WhiteSmoke;
   text-decoration: none;
+  outline-style: none;
 }
 
 a:hover {
-  color: #f0f0f0;
+  color: WhiteSmoke;
   text-decoration: underline;
 }
 
