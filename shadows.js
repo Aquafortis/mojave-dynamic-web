@@ -1,5 +1,5 @@
 /*! @preserve
- * Copyright (c) 2020 Aquafortis
+ * Copyright (c) 2023 Aquafortis
  * Licensed under MIT (https://github.com/Aquafortis/mojave-dynamic-web)
  * Image changes every 60 minutes
  * Timings won't match Mojave Dynamic Desktop exactly
